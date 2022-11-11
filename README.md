@@ -1,11 +1,11 @@
-# deno-json
+# deno_json
 
 🦕 Json Reader for Deno
 
 ```ts
-import { readJson } from "https://deno.land/x/deno-json/mod.ts";
+import { readJson } from "https://deno.land/x/deno_json/mod.ts";
 
 const data = await readJson("users.json");
 
-console.log(data);
+console.log(data["dude"]);
 ```
